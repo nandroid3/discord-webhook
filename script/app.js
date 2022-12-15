@@ -28,6 +28,7 @@ for(let i = 0;i < process.argv.length; i++)
 console.log("mode : " + mode)
 console.log("botname : " + botname)
 console.log("content : " + content)
+console.log("webhook url : " + webhook_url)
 
 // discord bot
 discord.post(webhook_url, content, botname)
